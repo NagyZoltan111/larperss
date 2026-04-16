@@ -1,0 +1,116 @@
+⁠<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DebateHub - Intelligent Discussions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <h1 class="text-2xl font-bold text-blue-600">DebateHub</h1>
+        </div>
+    </nav>
+ 
+    <!-- Main Container -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            
+            <!-- Topics Sidebar -->
+            <div class="lg:col-span-1">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">Debate Topics</h2>
+                    <div class="space-y-3">
+                        <button class="w-full text-left px-4 py-3 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 font-medium transition">
+                            🤖 Artificial Intelligence & Society
+                        </button>
+                        <button class="w-full text-left px-4 py-3 rounded-lg hover:bg-gray-100 text-gray-700 font-medium transition">
+                            🌍 Climate Change Solutions
+                        </button>
+                        <button class="w-full text-left px-4 py-3 rounded-lg hover:bg-gray-100 text-gray-700 font-medium transition">
+                            💼 Remote Work Benefits
+                        </button>
+                        <button class="w-full text-left px-4 py-3 rounded-lg hover:bg-gray-100 text-gray-700 font-medium transition">
+                            📱 Social Media Impact
+                        </button>
+                        <button class="w-full text-left px-4 py-3 rounded-lg hover:bg-gray-100 text-gray-700 font-medium transition">
+                            🎓 Education Reform
+                        </button>
+                        <button class="w-full text-left px-4 py-3 rounded-lg hover:bg-gray-100 text-gray-700 font-medium transition">
+                            ⚡ Renewable Energy
+                        </button>
+                        <button class="w-full text-left px-4 py-3 rounded-lg hover:bg-gray-100 text-gray-700 font-medium transition">
+                            🏥 Universal Healthcare
+                        </button>
+                    </div>
+                </div>
+            </div>
+ 
+            <!-- Chat Space -->
+            <div class="lg:col-span-2">
+                <div class="bg-white rounded-lg shadow-md flex flex-col h-[600px]">
+                    
+                    <!-- Chat Header -->
+                    <div class="border-b border-gray-200 px-6 py-4">
+                        <h3 class="text-lg font-bold text-gray-800">🤖 Artificial Intelligence & Society</h3>
+                        <p class="text-sm text-gray-500 mt-1">Active participants: 12</p>
+                    </div>
+ 
+                    <!-- Messages Area -->
+                    <div class="flex-1 overflow-y-auto px-6 py-4 space-y-4">
+                        <!-- Message 1 -->
+                        <div class="flex gap-3">
+                            <div class="w-8 h-8 rounded-full bg-blue-500 text-white flex items-center justify-center text-sm font-bold">A</div>
+                            <div>
+                                <p class="text-sm font-semibold text-gray-800">Alex Chen</p>
+                                <p class="text-sm text-gray-700 bg-gray-100 rounded-lg px-3 py-2 mt-1">AI should be regulated more strictly to prevent misuse.</p>
+                                <p class="text-xs text-gray-400 mt-1">2:34 PM</p>
+                            </div>
+                        </div>
+ 
+                        <!-- Message 2 -->
+                        <div class="flex gap-3 justify-end">
+                            <div class="text-right">
+                                <p class="text-sm font-semibold text-gray-800">Jordan Smith</p>
+                                <p class="text-sm text-white bg-blue-500 rounded-lg px-3 py-2 mt-1">But excessive regulation could stifle innovation. We need balance.</p>
+                                <p class="text-xs text-gray-400 mt-1">2:35 PM</p>
+                            </div>
+                            <div class="w-8 h-8 rounded-full bg-green-500 text-white flex items-center justify-center text-sm font-bold">J</div>
+                        </div>
+ 
+                        <!-- Message 3 -->
+                        <div class="flex gap-3">
+                            <div class="w-8 h-8 rounded-full bg-purple-500 text-white flex items-center justify-center text-sm font-bold">M</div>
+                            <div>
+                                <p class="text-sm font-semibold text-gray-800">Morgan Lee</p>
+                                <p class="text-sm text-gray-700 bg-gray-100 rounded-lg px-3 py-2 mt-1">Innovation and safety aren't mutually exclusive. We can have both.</p>
+                                <p class="text-xs text-gray-400 mt-1">2:36 PM</p>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <!-- Input Area -->
+                    <div class="border-t border-gray-200 px-6 py-4">
+                        <div class="flex gap-2">
+                            <input 
+                                type="text" 
+                                placeholder="Share your perspective..." 
+                                class="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            />
+                            <button class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition">
+                                Send
+                            </button>
+                        </div>
+                    </div>
+ 
+                </div>
+            </div>
+ 
+        </div>
+    </div>
+ 
+</body>
+</html>
+ 
